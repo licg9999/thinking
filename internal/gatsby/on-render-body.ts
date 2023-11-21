@@ -4,10 +4,21 @@ import { RenderBodyArgs } from "gatsby";
 
 import { themeAtomKey } from "@/hooks";
 
+import config from "../../content/config.json";
+
 const onRenderBody = ({
+  setHeadComponents,
   setHtmlAttributes,
   setPreBodyComponents,
 }: RenderBodyArgs) => {
+  setHeadComponents([
+    React.createElement("script", {
+      key: "google-adsense",
+      async: true,
+      crossOrigin: "anonymous",
+      src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${config.googleAdsenseId}`,
+    }),
+  ]);
   setPreBodyComponents([
     React.createElement("script", {
       key: "theme",

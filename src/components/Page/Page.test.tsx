@@ -2,7 +2,7 @@ import React from "react";
 
 import { Page } from "@/components/Page";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 describe("Page", () => {
   test("renders correctly", () => {

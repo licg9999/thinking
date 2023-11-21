@@ -1,9 +1,10 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "title": "Blog by Cole Li",
+  "url": "https://www.coleli.com/",
+  "subtitle": "",
+  "copyright": "© 2024 Cole Li.",
+  "googleAnalyticsId": "G-1TSDSF12YN",
+  "googleAdsenseId": "ca-pub-7812542610657213",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
@@ -13,28 +14,28 @@
       "path": "/"
     },
     {
-      "label": "About me",
+      "label": "About",
       "path": "/pages/about"
     },
     {
-      "label": "Contact me",
+      "label": "Contact",
       "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
-    "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "name": "Cole Li",
+    "photo": "/photo-230619-1.jpg",
+    "bio": "A coder who thinks.",
     "contacts": {
       "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "mastodon": "#",
+      "email": "licg9999@gmail.com",
+      "github": "",
+      "facebook": "",
+      "telegram": "",
+      "twitter": "",
+      "linkedin": "",
+      "instagram": "",
+      "mastodon": "",
       "line": "",
       "weibo": "",
       "gitlab": "",

@@ -2,7 +2,8 @@ import React from "react";
 
 import { Icon } from "@/components/Icon";
 import { ICONS } from "@/constants";
-import { getIcon, testUtils } from "@/utils";
+import { getIcon } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 describe("Icon", () => {
   test("renders correctly", () => {

@@ -1,21 +1,17 @@
 {
+  "private": true,
   "name": "gatsby-starter-lumen",
   "version": "1.4.1187",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
-  "keywords": [
-    "gatsby",
-    "graphql",
-    "react",
-    "blog"
-  ],
+  "description": "",
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/licg9999/thinking.git"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Cole Li <licg9999@gmail.com>",
   "scripts": {
-    "build": "npm run clean && gatsby build",
+    "build": "npm run clean && tinacms build -c \"gatsby build\"",
     "clean": "rimraf .cache public",
     "format": "npm run format:ts && npm run format:scss",
     "format:scss": "stylelint \"src/**/*.scss\" --fix",
@@ -26,9 +22,8 @@
     "lint:staged": "lint-staged",
     "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
     "prepare": "husky install",
-    "semantic-release": "semantic-release",
     "serve": "gatsby serve",
-    "start": "npm run clean && gatsby develop",
+    "start": "npm run clean && tinacms dev -c \"gatsby develop\"",
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:update-snapshot": "jest --updateSnapshot --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
@@ -53,7 +48,9 @@
     "@sentry/tracing": "^7.91.0",
     "abab": "^2.0.6",
     "classnames": "^2.5.0",
+    "date-fns": "^2.30.0",
     "disqus-react": "^1.1.5",
+    "express": "^4.18.2",
     "gatsby": "^4.25.8",
     "gatsby-link": "^4.25.0",
     "gatsby-plugin-catch-links": "^4.25.0",
@@ -63,6 +60,7 @@
     "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-offline": "^5.25.0",
     "gatsby-plugin-optimize-svgs": "^1.0.5",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sass": "^5.25.0",
     "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-sitemap": "^5.25.0",
@@ -78,7 +76,8 @@
     "gatsby-transformer-sharp": "^4.25.0",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tinacms": "^1.5.27"
   },
   "devDependencies": {
     "@alxshelepenok/eslint-config": "^1.0.387",
@@ -92,6 +91,8 @@
     "@testing-library/dom": "^8.20.1",
     "@testing-library/jest-dom": "^6.1.6",
     "@testing-library/react": "^13.4.0",
+    "@tinacms/cli": "^1.5.37",
+    "@types/express": "^4.17.21",
     "@types/gatsby-transformer-remark": "^2.9.4",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",

@@ -11,14 +11,13 @@ type Props = {
 
 const Tags = ({ tags, tagSlugs }: Props) => (
   <div className={styles.tags}>
+    <span className={styles.name}>Tags:</span>
     <ul className={styles.list}>
-      {tagSlugs
-        ? tagSlugs.map((slug, i) => (
-            <li className={styles.item} key={slug}>
-              <Button title={tags[i]} key={slug} to={slug} />
-            </li>
-          ))
-        : null}
+      {tagSlugs.map((slug, i) => (
+        <li className={styles.item} key={slug}>
+          <Button title={tags[i]} key={slug} to={slug} />
+        </li>
+      ))}
     </ul>
   </div>
 );

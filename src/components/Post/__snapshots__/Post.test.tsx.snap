@@ -3,12 +3,14 @@
 exports[`Post renders correctly 1`] = `
 <div>
   <div>
-    <a
-      className=""
-      href="/"
-    >
-      All Articles
-    </a>
+    <div>
+      <a
+        className=""
+        href="/"
+      >
+        All Articles
+      </a>
+    </div>
   </div>
   <div>
     <div>
@@ -29,22 +31,22 @@ exports[`Post renders correctly 1`] = `
       <p>
         Published
          
-        Sep 1, 2016
+        1 Sept 2016, 01:00
       </p>
     </div>
     <div>
       <p>
-        Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
-        <a
-          href="https://www.twitter.com/#"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>
-            John Doe
-          </strong>
-           on Twitter
-        </a>
+        <section>
+          By 
+          John Doe
+        </section>
+        <section>
+          <a
+            href="/"
+          >
+            Back to the article list
+          </a>
+        </section>
       </p>
     </div>
   </div>

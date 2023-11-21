@@ -2,6 +2,9 @@
 
 exports[`Tags renders correctly 1`] = `
 <div>
+  <span>
+    Tags:
+  </span>
   <ul>
     <li>
       <a
