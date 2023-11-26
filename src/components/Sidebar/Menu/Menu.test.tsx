@@ -2,7 +2,7 @@ import React from "react";
 
 import { Menu } from "@/components/Sidebar/Menu";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 describe("Menu", () => {
   test("renders correctly", () => {

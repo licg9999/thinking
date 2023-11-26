@@ -5,7 +5,7 @@ import { StaticQuery, useStaticQuery } from "gatsby";
 
 import { Post } from "@/components/Post";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 import { renderWithCoilProvider } from "@/utils/test-utils";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;

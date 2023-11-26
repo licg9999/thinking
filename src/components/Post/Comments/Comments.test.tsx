@@ -4,7 +4,7 @@ import { StaticQuery, useStaticQuery } from "gatsby";
 
 import { Comments } from "@/components/Post/Comments";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 const mockedStaticQuery = StaticQuery as jest.Mock;
 const mockedUseStaticQuery = useStaticQuery as jest.Mock;

@@ -4,7 +4,7 @@ import { render as reactTestingLibraryRender } from "@testing-library/react";
 import { StaticQuery, useStaticQuery } from "gatsby";
 
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 import PostTemplate, { Head as GatsbyHead } from "./PostTemplate";
 

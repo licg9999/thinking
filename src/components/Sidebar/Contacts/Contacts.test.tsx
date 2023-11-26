@@ -2,7 +2,7 @@ import React from "react";
 
 import { Contacts } from "@/components/Sidebar/Contacts";
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 describe("Contacts", () => {
   test("renders correctly", () => {

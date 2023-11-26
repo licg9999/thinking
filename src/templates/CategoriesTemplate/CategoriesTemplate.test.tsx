@@ -3,7 +3,7 @@ import React from "react";
 import { StaticQuery, useStaticQuery } from "gatsby";
 
 import * as mocks from "@/mocks";
-import { testUtils } from "@/utils";
+import * as testUtils from "@/utils/test-utils";
 
 import CategoriesTemplate, { Head as GatsbyHead } from "./CategoriesTemplate";
 
