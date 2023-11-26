@@ -1,19 +1,15 @@
 {
-  "name": "gatsby-starter-lumen",
+  "private": true,
+  "name": "@licg9999/thinking",
   "version": "1.4.1127",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
-  "keywords": [
-    "gatsby",
-    "graphql",
-    "react",
-    "blog"
-  ],
+  "description": "",
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/licg9999/thinking.git"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Cole Li <licg9999@gmail.com>",
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
@@ -26,7 +22,6 @@
     "lint:staged": "lint-staged",
     "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
     "prepare": "husky install",
-    "semantic-release": "semantic-release",
     "serve": "gatsby serve",
     "start": "npm run clean && gatsby develop",
     "test": "jest --config ./internal/testing/jest-config.ts",
@@ -85,8 +80,6 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@jest/globals": "^29.6.4",
-    "@semantic-release/exec": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "@swc/core": "^1.3.99",
     "@swc/jest": "^0.2.29",
     "@testing-library/dom": "^8.20.1",
@@ -103,7 +96,6 @@
     "@typescript-eslint/parser": "^6.12.0",
     "autoprefixer": "^10.4.16",
     "browserslist": "^4.22.1",
-    "codecov": "^3.8.3",
     "concurrently": "^8.2.2",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "^8.54.0",
@@ -135,7 +127,6 @@
     "react-test-renderer": "^18.2.0",
     "rimraf": "5.0.5",
     "sass": "^1.69.5",
-    "semantic-release": "^21.0.9",
     "source-map-support": "^0.5.21",
     "stylelint": "^15.11.0",
     "stylelint-config-recommended-scss": "^13.1.0",

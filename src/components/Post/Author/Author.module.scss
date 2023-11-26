@@ -10,14 +10,8 @@
   @include margin-bottom(2);
 
   .bio {
-    .twitter {
+    .name{
       display: block;
-      text-decoration: underline;
-
-      &:hover,
-      &:focus {
-        color: var(--color-typographic-link-s-font);
-      }
     }
   }
 }
