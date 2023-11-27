@@ -2,7 +2,7 @@
   "title": "Blog by Cole Li",
   "url": "https://placeholder.com/",
   "subtitle": "",
-  "copyright": "© All rights reserved.",
+  "copyright": "© 2023 Cole Li.",
   "googleAnalyticsId": "G-1TSDSF12YN",
   "disqusShortname": "",
   "postsLimit": 4,
@@ -24,7 +24,7 @@
   "author": {
     "name": "Cole Li",
     "photo": "/photo-230619-1.jpg",
-    "bio": "A JS coder who thinks no better.",
+    "bio": "A coder who may think no better.",
     "contacts": {
       "rss": "",
       "email": "licg9999@gmail.com",
