@@ -3,7 +3,6 @@ logs
 *.log
 
 # runtime data
-.DS_Store
 *.seed
 *.pid
 pids
@@ -40,4 +39,6 @@ node_modules
 npm-shrinkwrap.json
 yarn.lock
 
+# misc
 .env
+.DS_Store

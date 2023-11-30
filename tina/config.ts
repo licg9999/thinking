@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 import { format, parseISO } from "date-fns";
 import { defineConfig } from "tinacms";
 
@@ -7,12 +9,14 @@ const branch =
   process.env.GITHUB_BRANCH ||
   process.env.HEAD ||
   "main";
+const clientId = process.env.NEXT_PUBLIC_TINA_CLIENT_ID;
+const token = process.env.TINA_TOKEN;
 
 export default defineConfig({
   client: { skip: true },
   branch,
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  token: process.env.TINA_TOKEN,
+  clientId,
+  token,
   build: {
     outputFolder: "admin",
     publicFolder: "static",

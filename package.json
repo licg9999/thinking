@@ -11,7 +11,7 @@
   "license": "MIT",
   "author": "Cole Li <licg9999@gmail.com>",
   "scripts": {
-    "build": "npm run clean && gatsby build",
+    "build": "npm run clean && tinacms build -c \"gatsby build\"",
     "clean": "rimraf .cache public",
     "format": "npm run format:ts && npm run format:scss",
     "format:scss": "stylelint \"src/**/*.scss\" --fix",
@@ -50,6 +50,7 @@
     "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "disqus-react": "^1.1.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "gatsby": "^4.25.7",
     "gatsby-link": "^4.25.0",
