@@ -23,7 +23,7 @@
     "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
     "prepare": "husky install",
     "serve": "gatsby serve",
-    "start": "npm run clean && gatsby develop",
+    "start": "npm run clean && tinacms dev -c \"gatsby develop\"",
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:update-snapshot": "jest --updateSnapshot --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
@@ -48,7 +48,9 @@
     "@sentry/tracing": "^7.80.1",
     "abab": "^2.0.6",
     "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
     "disqus-react": "^1.1.5",
+    "express": "^4.18.2",
     "gatsby": "^4.25.7",
     "gatsby-link": "^4.25.0",
     "gatsby-plugin-catch-links": "^4.25.0",
@@ -73,7 +75,8 @@
     "gatsby-transformer-sharp": "^4.25.0",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tinacms": "^1.5.27"
   },
   "devDependencies": {
     "@alxshelepenok/eslint-config": "^1.0.365",
@@ -85,9 +88,11 @@
     "@testing-library/dom": "^8.20.1",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^13.4.0",
+    "@tinacms/cli": "^1.5.37",
+    "@types/express": "^4.17.21",
     "@types/gatsby-transformer-remark": "^2.9.4",
     "@types/jest": "^29.5.10",
-    "@types/node": "^20.9.5",
+    "@types/node": "^20.10.1",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.17",
     "@types/react-test-renderer": "^18.0.7",
