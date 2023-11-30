@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@licg9999/thinking",
-  "version": "1.4.1127",
+  "version": "1.4.1132",
   "description": "",
   "keywords": [],
   "repository": {
@@ -79,7 +79,7 @@
     "tinacms": "^1.5.27"
   },
   "devDependencies": {
-    "@alxshelepenok/eslint-config": "^1.0.365",
+    "@alxshelepenok/eslint-config": "^1.0.366",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@jest/globals": "^29.6.4",
@@ -92,13 +92,13 @@
     "@types/express": "^4.17.21",
     "@types/gatsby-transformer-remark": "^2.9.4",
     "@types/jest": "^29.5.10",
-    "@types/node": "^20.10.1",
-    "@types/react": "^18.2.38",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.39",
     "@types/react-dom": "^18.2.17",
     "@types/react-test-renderer": "^18.0.7",
     "@types/sass": "^1.43.1",
-    "@typescript-eslint/eslint-plugin": "^6.12.0",
-    "@typescript-eslint/parser": "^6.12.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
     "autoprefixer": "^10.4.16",
     "browserslist": "^4.22.1",
     "concurrently": "^8.2.2",

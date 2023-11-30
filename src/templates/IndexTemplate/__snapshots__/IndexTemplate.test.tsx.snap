@@ -150,9 +150,9 @@ exports[`IndexTemplate renders correctly 1`] = `
           <div>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="1 September 2016 at 01:00"
               >
-                September 2016
+                1 September 2016
               </time>
               <span />
               <span>
@@ -182,9 +182,9 @@ exports[`IndexTemplate renders correctly 1`] = `
           <div>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="1 September 2016 at 01:00"
               >
-                September 2016
+                1 September 2016
               </time>
               <span />
               <span>
@@ -214,9 +214,9 @@ exports[`IndexTemplate renders correctly 1`] = `
           <div>
             <div>
               <time
-                dateTime="September 1, 2017"
+                dateTime="1 September 2017 at 01:00"
               >
-                September 2017
+                1 September 2017
               </time>
               <span />
               <span>
