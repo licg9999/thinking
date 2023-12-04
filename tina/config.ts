@@ -1,5 +1,3 @@
-import "dotenv/config";
-
 import { format, parseISO } from "date-fns";
 import { defineConfig } from "tinacms";
 
@@ -18,13 +16,13 @@ export default defineConfig({
   clientId,
   token,
   build: {
-    outputFolder: "admin",
     publicFolder: "static",
+    outputFolder: "admin",
   },
   media: {
     tina: {
-      mediaRoot: "",
       publicFolder: "static",
+      mediaRoot: "media",
     },
   },
   schema: {

@@ -13,12 +13,12 @@ description: >-
   fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
   fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus
   eget urna mollis ornare vel eu leo.
-socialImage: /images/notebook.jpg
+socialImage: /media/images/notebook.jpg
 ---
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-![](/images/notebook.jpg)
+![Sed posuere consectetur est at lobortis.](/media/images/notebook.jpg)
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.
 
