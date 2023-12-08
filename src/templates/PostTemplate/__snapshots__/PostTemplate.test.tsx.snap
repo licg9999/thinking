@@ -35,14 +35,17 @@ exports[`PostTemplate renders correctly 1`] = `
       </div>
       <div>
         <p>
-          Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
-          <a
-            href="/"
-          >
-            <strong>
-              John Doe
-            </strong>
-          </a>
+          <section>
+            By 
+            John Doe
+          </section>
+          <section>
+            <a
+              href="/"
+            >
+              Back to the article list
+            </a>
+          </section>
         </p>
       </div>
     </div>

@@ -11,12 +11,11 @@ const Author = () => {
 
   return (
     <div className={styles.author}>
-      <p className={styles.bio}>
-        {author.bio}
-
-        <Link className={styles.name} to="/">
-          <strong className={styles.name}>{author.name}</strong>
-        </Link>
+      <p>
+        <section>By {author.name}</section>
+        <section>
+          <Link to="/">Back to the article list</Link>
+        </section>
       </p>
     </div>
   );

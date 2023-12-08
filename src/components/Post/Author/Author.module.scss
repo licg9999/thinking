@@ -8,17 +8,4 @@
   @include line-height(1);
   @include margin-top(1);
   @include margin-bottom(2);
-
-  .bio {
-    .name{
-      display: block;
-    }
-  }
-}
-
-@include breakpoint-sm {
-  .author {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
