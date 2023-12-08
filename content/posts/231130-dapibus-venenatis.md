@@ -13,8 +13,7 @@ description: >-
   fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet
   fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus
   eget urna mollis ornare vel eu leo.
-socialImage: >-
-  https://assets.tina.io/f046ac5f-5a56-483b-a86f-7c0356f4844c/images/notebook.jpg
+socialImage: ''
 ---
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.
